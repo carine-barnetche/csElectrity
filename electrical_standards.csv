@@ -1,0 +1,50 @@
+ByForbiddenElement;ByElement;ByRoom;Type;PredefinedType;Minimum;HeightMin;HeightMax;LimitSurface;Surface;Circuit spécialisé;Element;ForbiddenElement;Distance;Inter;Above
+;;Room;;;0;0;0;0;0;0;Door;0;;;
+;;Room;IfcOutlet;POWEROUTLET;1;15;130;0;0;0;;0;;;
+;;Room;IfcSwitchingDevice;TOGGLESWITCH;1;90;130;0;0;0;;;;;
+;;Room;IfcLightFixture;POINTSOURCE;1;200;0;0;0;0;;0;;;
+;;Bedroom;;;0;0;0;0;0;0;Bed, Desk, Door;0;;;
+;;Bedroom;IfcOutlet;POWEROUTLET;3;15;130;0;0;0;;0;;;
+;;Bedroom;IfcOutlet;COMMUNICATIONSOUTLET;1;15;130;0;0;0;;0;;;
+;;Bedroom;IfcSwitchingDevice;TOGGLESWITCH;1;90;130;0;0;0;;0;;;
+;;Bedroom;IfcLightFixture;POINTSOURCE;1;200;0;0;0;0;;0;;;
+;;LivingRoom;;;0;0;0;0;0;0;Sofa, TV, Door, Table;0;;;
+;;LivingRoom;IfcOutlet;POWEROUTLET;57;15;130;28;4;0;;0;;;
+;;LivingRoom;IfcOutlet;COMMUNICATIONSOUTLET;12;15;130;28;0;0;;0;;;
+;;LivingRoom;IfcSwitchingDevice;TOGGLESWITCH;24;90;130;28;0;0;;0;;;
+;;LivingRoom;IfcLightFixture;POINTSOURCE;12;0;0;28;0;0;;0;;;
+;;Kitchen;;;0;0;0;0;0;0;WorkPlan, Door, Table, Hood;Sink, CookTop;;;
+;;Kitchen;IfcSwitchingDevice;TOGGLESWITCH;12;90;0;4;0;0;0;0;;;
+;;Kitchen;IfcLightFixture;POINTSOURCE;1;200;0;0;0;0;;0;;;
+;;Kitchen;IfcOutlet;POWEROUTLET;36;90;0;4;0;0;;0;;;
+;;Bathroom;;;0;0;0;0;0;0;Sink, Door;Shower;;;
+;;Bathroom;IfcOutlet;POWEROUTLET;1;15;130;0;0;0;;0;;;
+;;Bathroom;IfcLightFixture;POINTSOURCE;1;200;0;0;0;0;;0;;;
+;;Bathroom;IfcSwitchingDevice;TOGGLESWITCH;1;90;130;0;0;0;;0;;;
+;;Laundry;;;0;0;0;0;0;0;WashingMachine, Door;0;;;
+;;Laundry;IfcOutlet;POWEROUTLET;1;15;130;0;0;0;;0;;;
+;;Laundry;IfcLightFixture;POINTSOURCE;1;200;0;0;0;0;;0;;;
+;;Laundry;IfcSwitchingDevice;TOGGLESWITCH;1;90;130;0;0;0;;0;;;
+;;;;;;;;;;;;;;;
+;Bed;;IfcSwitchingDevice;TOGGLESWITCH;1;5;10;;;;;;20;False;True
+;Bed;;IfcOutlet;POWEROUTLET;1;5;10;;;;;;30;False;True
+;Bed;;IfcLightFixture;DIRECTIONSOURCE;1;15;20;;;;;;10;True;True
+;Desk;;IfcOutlet;COMMUNICATIONSOUTLET;1;30;80;;;;;;0;True;True
+;Desk;;IfcOutlet;POWEROUTLET;2;20;30;;;;;;0;True;True
+;Desk;;IfcSwitchingDevice;TOGGLESWITCH;1;15;85;;;;;;0;True;True
+;Sofa;;IfcOutlet;POWEROUTLET;1;100;130;;;;;;15;False;False
+;Sofa;;IfcOutlet;POWEROUTLET;1;15;30;;;;;;10;False;False
+;TV;;IfcOutlet;COMMUNICATIONSOUTLET;1;15;90;;;;;;0;True;False
+;TV;;IfcOutlet;POWEROUTLET;1;15;90;;;;;;5;True;False
+;Door;;IfcSwitchingDevice;TOGGLESWITCH;1;10;130;;;;;;15;False;False
+;Door;;IfcOutlet;POWEROUTLET;1;130;130;;;;;;15;False;False
+;Sink;;IfcOutlet;POWEROUTLET;2;40;90;;;;;;10;False;True
+;Sink;;IfcSwitchingDevice;TOGGLESWITCH;1;40;90;;;;;;10;False;True
+;Sink;;IfcLightFixture;DIRECTIONSOURCE;2;100;150;;;;;;0;True;True
+;WorkPlan;;IfcOutlet;POWEROUTLET;4;30;200;;;;;;0;True;True
+;WashingMachine;;IfcOutlet;POWEROUTLET;1;15;130;;;;;;0;True;False
+;Table;;IfcLightFixture;POINTSOURCE;1;150;250;;;;;;0;True;True
+;Hood;;IfcOutlet;POWEROUTLET;1;20;180;;;;;;0;True;True
+Sink;;;;;;;;;;;;;30;;
+Shower;;;;;;;;;;;;;60;;
+CookTop;;;;;;;;;;;;;30;;
