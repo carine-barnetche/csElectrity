@@ -1,0 +1,23 @@
+[
+  {
+    "PredefinedType": "BEDROOM",
+    "Names": ["chambre", "bedroom", "chb", "desk", "bureau"]
+  },
+  {
+    "PredefinedType": "BATHROOM",
+    "Names": ["bath", "sdb", "sde"]
+  },
+  {
+    "PredefinedType": "LAUNDRY",
+    "Names":["laundry", "buanderie"]
+  },
+  {
+    "PredefinedType": "LIVINGROOM",
+    "Names": ["séjour", "sejour", "living", "lounge", "dinning"]
+  },
+  {
+    "PredefinedType": "KITCHEN",
+    "Names": ["cuisine", "kitchen"]
+  }
+
+]

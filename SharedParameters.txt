@@ -1,0 +1,11 @@
+# This is a Revit shared parameter file.
+# Do not edit manually; use Revit to edit.
+*META	VERSION	MINVERSION
+META	2	1
+*GROUP	ID	NAME
+GROUP	1	IfcExport
+#
+*PARAM	GUID	NAME	DATATYPE	UNITTYPE	GROUP	VISIBLE	DESCRIPTION
+#
+PARAM	8b4f3e51-b8fa-481c-a671-43e8f3ba2c95	IfcExportType	TEXT	TEXT	1	1	
+PARAM	6775129b-1293-47ff-868b-183a0acd1c91	IfcExportAs	TEXT	TEXT	1	1	

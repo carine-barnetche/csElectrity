@@ -1,0 +1,58 @@
+[
+  {
+    "PredefinedType": "BED",
+    "Names": ["bed", "lit", "cama"]
+  },
+  {
+    "PredefinedType": "DESK",
+    "Names": ["bureau", "desk"]
+  },
+  {
+    "PredefinedType": "SOFA",
+    "Names":["canap", "sofa", "seat"]
+  },
+  {
+    "PredefinedType": "TV",
+    "Names": ["tv"]
+  },
+  {
+    "PredefinedType": "TABLE",
+    "Names": ["table"]
+  },
+  {
+    "PredefinedType": "DRESSING",
+    "Names": ["dress"]
+  },
+  {
+    "PredefinedType": "SINK",
+    "Names": ["lavatory", "lavabo", "sink", "faucet", "evier"]
+  },
+  {
+    "PredefinedType": "SHOWER",
+    "Names": ["shower", "douche" ,"bath", "baignoire"]
+  },
+  {
+    "PredefinedType": "WC",
+    "Names": ["wc"]
+  },
+  {
+    "PredefinedType": "WASHINGMACHINE",
+    "Names": ["whashingmachine", "washing"]
+  },
+  {
+    "PredefinedType": "DISHWASHER",
+    "Names": ["dishwasher"]
+  },  
+  {
+    "PredefinedType": "WORKPLAN",
+    "Names": ["workplan"]
+  },
+  {
+    "PredefinedType": "HOOD",
+    "Names": ["hotte", "hood"]
+  },
+  {
+    "PredefinedType": "COOKTOP",
+    "Names": ["cooktop", "bakingtray", "cuisson","plaque"]
+  }
+]
